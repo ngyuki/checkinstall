@@ -4,7 +4,7 @@
 PREFIX=/usr/local
 BINDIR=$(PREFIX)/sbin
 LCDIR=$(PREFIX)/lib/checkinstall/locale
-CONFDIR=$(PREFIX)/lib/checkinstall
+CONFDIR=$(PREFIX)/etc
 
 all:
 	for file in locale/checkinstall-*.po ; do \

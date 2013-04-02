@@ -492,7 +492,7 @@ function copy_dir_hierarchy {
 ckversion
 echo
 
-CHECKINSTALLRC=${CHECKINSTALLRC:-${INSTALLDIR}/checkinstallrc}
+CHECKINSTALLRC=${CHECKINSTALLRC:-${INSTALLDIR}/etc/checkinstallrc}
 if ! [ -f $CHECKINSTALLRC ]; then
    echog "The checkinstallrc file was not found at:\n$CHECKINSTALLRC"
    echo
